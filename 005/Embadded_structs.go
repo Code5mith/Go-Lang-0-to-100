@@ -27,16 +27,8 @@ func main() {
 	employee := Employee{Customer: customer, EmployeeID: "EMP123"}
 
 	/*
-		This method of sturct instanciation is not valid, we cant directly initiate the properties
-		of the embadded struct rather we have to first create an instance of that sturct and then we can
-		pass that instance to the upper level sturct embadding that struct.
-
-		Correction , we still cant initiate the properties of the embadded struct but when we access the
-		properties of the embadded sturct we dont need to write it as such { employee.customer.prpoerty }
-		rather we can access it like { employee.property-of-the-embadded-struct } we dont need to refer to the
-		embadded struct.
-
-
+		// Not valid 
+  
 		employee2 := Employee{
 		Name: "Alice", // property of the embadded struct.
 		EmployeeID: "TRT9980",
