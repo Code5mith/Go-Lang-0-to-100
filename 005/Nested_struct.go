@@ -19,9 +19,7 @@ func main() {
 
 	//Creating a unique student instance and nesting the instance above.
 	student_1 := Student_id{student_info: instance_1, dorme_number: 124}
-
-	//If we try to access the name property of the student here from the student instance we will get an error
-	// You must use the syntax below to get the properties to access to properties of the nested struct from the container
+	
 	// struct refer to Embadded structs.
 
 	fmt.Println("New student has registered :", "Name of the student is :", student_1.student_info.name, "Id number :",
