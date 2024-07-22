@@ -22,6 +22,12 @@ func main() {
 
 		}
 
+  		// In go lang there is no while loop like many other langs instead we can make our for loops like while loops
+
+    		for condition {
+      			// Logic goes here	
+	}
+
 	*/
 
 	bulkSend(10)
